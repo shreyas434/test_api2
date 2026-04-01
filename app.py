@@ -41,6 +41,10 @@ def get_albums():
         "status_code": 200
     })
 
+
+def test_basic():
+    assert True
+    
 if __name__ == '__main__':
     app.run(debug=True)
 
